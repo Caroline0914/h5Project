@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "vite",
+    "build": "vite build"
   },
   "repository": {
     "type": "git",
@@ -12,6 +13,17 @@
   },
   "author": "",
   "license": "ISC",
+  "dependencies": {
+    "vue": "^3.0.4",
+    "vue-router": "^4.0.8",
+    "vuex": "^4.0.0"
+  },
+  "devDependencies": {
+    "@vue/compiler-sfc": "^3.0.4",
+    "less": "^4.1.1",
+    "less-loader": "^9.0.0",
+    "vite": "^1.0.0-rc.13"
+  },
   "bugs": {
     "url": "https://github.com/Caroline0914/h5Project/issues"
   },
